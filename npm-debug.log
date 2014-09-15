@@ -1,0 +1,376 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'publish',
+1 verbose cli   '--force' ]
+2 info using npm@1.3.11
+3 info using node@v0.10.21
+4 warn using --force I sure hope you know what you are doing.
+5 verbose publish [ '.' ]
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . /Users/seanmcgary/.npm/3a52ce78-.lock
+11 verbose tar pack [ '/var/folders/y3/n_sj0zcs4dq9s6j2_42rlgb40000gn/T/npm-29385-Vd0K3Y5r/1410740353661-0.8851192879956216/tmp.tgz',
+11 verbose tar pack   '.' ]
+12 verbose tarball /var/folders/y3/n_sj0zcs4dq9s6j2_42rlgb40000gn/T/npm-29385-Vd0K3Y5r/1410740353661-0.8851192879956216/tmp.tgz
+13 verbose folder .
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. /Users/seanmcgary/.npm/1f1177db-tar.lock
+16 silly lockFile 004b6066-53661-0-8851192879956216-tmp-tgz tar:///var/folders/y3/n_sj0zcs4dq9s6j2_42rlgb40000gn/T/npm-29385-Vd0K3Y5r/1410740353661-0.8851192879956216/tmp.tgz
+17 verbose lock tar:///var/folders/y3/n_sj0zcs4dq9s6j2_42rlgb40000gn/T/npm-29385-Vd0K3Y5r/1410740353661-0.8851192879956216/tmp.tgz /Users/seanmcgary/.npm/004b6066-53661-0-8851192879956216-tmp-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 004b6066-53661-0-8851192879956216-tmp-tgz tar:///var/folders/y3/n_sj0zcs4dq9s6j2_42rlgb40000gn/T/npm-29385-Vd0K3Y5r/1410740353661-0.8851192879956216/tmp.tgz
+21 silly lockFile 004b6066-53661-0-8851192879956216-tmp-tgz tar:///var/folders/y3/n_sj0zcs4dq9s6j2_42rlgb40000gn/T/npm-29385-Vd0K3Y5r/1410740353661-0.8851192879956216/tmp.tgz
+22 verbose tar unpack /var/folders/y3/n_sj0zcs4dq9s6j2_42rlgb40000gn/T/npm-29385-Vd0K3Y5r/1410740353661-0.8851192879956216/tmp.tgz
+23 silly lockFile e84f447f-53661-0-8851192879956216-package tar:///var/folders/y3/n_sj0zcs4dq9s6j2_42rlgb40000gn/T/npm-29385-Vd0K3Y5r/1410740353661-0.8851192879956216/package
+24 verbose lock tar:///var/folders/y3/n_sj0zcs4dq9s6j2_42rlgb40000gn/T/npm-29385-Vd0K3Y5r/1410740353661-0.8851192879956216/package /Users/seanmcgary/.npm/e84f447f-53661-0-8851192879956216-package.lock
+25 silly lockFile 004b6066-53661-0-8851192879956216-tmp-tgz tar:///var/folders/y3/n_sj0zcs4dq9s6j2_42rlgb40000gn/T/npm-29385-Vd0K3Y5r/1410740353661-0.8851192879956216/tmp.tgz
+26 verbose lock tar:///var/folders/y3/n_sj0zcs4dq9s6j2_42rlgb40000gn/T/npm-29385-Vd0K3Y5r/1410740353661-0.8851192879956216/tmp.tgz /Users/seanmcgary/.npm/004b6066-53661-0-8851192879956216-tmp-tgz.lock
+27 silly gunzTarPerm modes [ '755', '644' ]
+28 silly gunzTarPerm extractEntry package.json
+29 silly gunzTarPerm extractEntry .npmignore
+30 silly gunzTarPerm extractEntry index.js
+31 silly gunzTarPerm extractEntry README.mkdn
+32 silly gunzTarPerm extractEntry examples/expressjs.js
+33 silly gunzTarPerm extractEntry examples/standalone.js
+34 silly gunzTarPerm extractEntry lib/express.js
+35 silly gunzTarPerm extractEntry lib/manager.js
+36 silly gunzTarPerm extractEntry lib/redisStore.js
+37 silly gunzTarPerm extractEntry lib/session.js
+38 silly gunzTarPerm extractEntry lib/store.js
+39 silly gunzTarPerm extractEntry lib/modules/redis.js
+40 silly lockFile e84f447f-53661-0-8851192879956216-package tar:///var/folders/y3/n_sj0zcs4dq9s6j2_42rlgb40000gn/T/npm-29385-Vd0K3Y5r/1410740353661-0.8851192879956216/package
+41 silly lockFile e84f447f-53661-0-8851192879956216-package tar:///var/folders/y3/n_sj0zcs4dq9s6j2_42rlgb40000gn/T/npm-29385-Vd0K3Y5r/1410740353661-0.8851192879956216/package
+42 silly lockFile 004b6066-53661-0-8851192879956216-tmp-tgz tar:///var/folders/y3/n_sj0zcs4dq9s6j2_42rlgb40000gn/T/npm-29385-Vd0K3Y5r/1410740353661-0.8851192879956216/tmp.tgz
+43 silly lockFile 004b6066-53661-0-8851192879956216-tmp-tgz tar:///var/folders/y3/n_sj0zcs4dq9s6j2_42rlgb40000gn/T/npm-29385-Vd0K3Y5r/1410740353661-0.8851192879956216/tmp.tgz
+44 verbose tar pack [ '/Users/seanmcgary/.npm/session-store/0.0.1/package.tgz',
+44 verbose tar pack   '/var/folders/y3/n_sj0zcs4dq9s6j2_42rlgb40000gn/T/npm-29385-Vd0K3Y5r/1410740353661-0.8851192879956216/package' ]
+45 verbose tarball /Users/seanmcgary/.npm/session-store/0.0.1/package.tgz
+46 verbose folder /var/folders/y3/n_sj0zcs4dq9s6j2_42rlgb40000gn/T/npm-29385-Vd0K3Y5r/1410740353661-0.8851192879956216/package
+47 silly lockFile e84f447f-53661-0-8851192879956216-package tar:///var/folders/y3/n_sj0zcs4dq9s6j2_42rlgb40000gn/T/npm-29385-Vd0K3Y5r/1410740353661-0.8851192879956216/package
+48 verbose lock tar:///var/folders/y3/n_sj0zcs4dq9s6j2_42rlgb40000gn/T/npm-29385-Vd0K3Y5r/1410740353661-0.8851192879956216/package /Users/seanmcgary/.npm/e84f447f-53661-0-8851192879956216-package.lock
+49 silly lockFile 7239ef7c--session-store-0-0-1-package-tgz tar:///Users/seanmcgary/.npm/session-store/0.0.1/package.tgz
+50 verbose lock tar:///Users/seanmcgary/.npm/session-store/0.0.1/package.tgz /Users/seanmcgary/.npm/7239ef7c--session-store-0-0-1-package-tgz.lock
+51 silly lockFile e84f447f-53661-0-8851192879956216-package tar:///var/folders/y3/n_sj0zcs4dq9s6j2_42rlgb40000gn/T/npm-29385-Vd0K3Y5r/1410740353661-0.8851192879956216/package
+52 silly lockFile e84f447f-53661-0-8851192879956216-package tar:///var/folders/y3/n_sj0zcs4dq9s6j2_42rlgb40000gn/T/npm-29385-Vd0K3Y5r/1410740353661-0.8851192879956216/package
+53 silly lockFile 7239ef7c--session-store-0-0-1-package-tgz tar:///Users/seanmcgary/.npm/session-store/0.0.1/package.tgz
+54 silly lockFile 7239ef7c--session-store-0-0-1-package-tgz tar:///Users/seanmcgary/.npm/session-store/0.0.1/package.tgz
+55 silly lockFile 77ccfd12--npm-session-store-0-0-1-package /Users/seanmcgary/.npm/session-store/0.0.1/package
+56 verbose lock /Users/seanmcgary/.npm/session-store/0.0.1/package /Users/seanmcgary/.npm/77ccfd12--npm-session-store-0-0-1-package.lock
+57 silly lockFile 77ccfd12--npm-session-store-0-0-1-package /Users/seanmcgary/.npm/session-store/0.0.1/package
+58 silly lockFile 77ccfd12--npm-session-store-0-0-1-package /Users/seanmcgary/.npm/session-store/0.0.1/package
+59 verbose tar unpack /Users/seanmcgary/.npm/session-store/0.0.1/package.tgz
+60 silly lockFile cecdf2b8--npm-session-store-0-0-1-package tar:///Users/seanmcgary/.npm/session-store/0.0.1/package
+61 verbose lock tar:///Users/seanmcgary/.npm/session-store/0.0.1/package /Users/seanmcgary/.npm/cecdf2b8--npm-session-store-0-0-1-package.lock
+62 silly lockFile 7239ef7c--session-store-0-0-1-package-tgz tar:///Users/seanmcgary/.npm/session-store/0.0.1/package.tgz
+63 verbose lock tar:///Users/seanmcgary/.npm/session-store/0.0.1/package.tgz /Users/seanmcgary/.npm/7239ef7c--session-store-0-0-1-package-tgz.lock
+64 silly gunzTarPerm modes [ '755', '644' ]
+65 silly gunzTarPerm extractEntry package.json
+66 silly gunzTarPerm extractEntry .npmignore
+67 silly gunzTarPerm extractEntry index.js
+68 silly gunzTarPerm extractEntry README.mkdn
+69 silly gunzTarPerm extractEntry examples/expressjs.js
+70 silly gunzTarPerm extractEntry examples/standalone.js
+71 silly gunzTarPerm extractEntry lib/express.js
+72 silly gunzTarPerm extractEntry lib/manager.js
+73 silly gunzTarPerm extractEntry lib/redisStore.js
+74 silly gunzTarPerm extractEntry lib/session.js
+75 silly gunzTarPerm extractEntry lib/store.js
+76 silly gunzTarPerm extractEntry lib/modules/redis.js
+77 silly lockFile cecdf2b8--npm-session-store-0-0-1-package tar:///Users/seanmcgary/.npm/session-store/0.0.1/package
+78 silly lockFile cecdf2b8--npm-session-store-0-0-1-package tar:///Users/seanmcgary/.npm/session-store/0.0.1/package
+79 silly lockFile 7239ef7c--session-store-0-0-1-package-tgz tar:///Users/seanmcgary/.npm/session-store/0.0.1/package.tgz
+80 silly lockFile 7239ef7c--session-store-0-0-1-package-tgz tar:///Users/seanmcgary/.npm/session-store/0.0.1/package.tgz
+81 verbose chmod /Users/seanmcgary/.npm/session-store/0.0.1/package.tgz 644
+82 verbose chown /Users/seanmcgary/.npm/session-store/0.0.1/package.tgz [ 501, 20 ]
+83 silly lockFile 3a52ce78- .
+84 silly lockFile 3a52ce78- .
+85 silly publish { name: 'session-store',
+85 silly publish   version: '0.0.1',
+85 silly publish   description: 'A generic session store adapter',
+85 silly publish   main: 'index.js',
+85 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+85 silly publish   repository:
+85 silly publish    { type: 'git',
+85 silly publish      url: 'https://github.com/seanmcgary/session-store.git' },
+85 silly publish   author: { name: 'Sean McGary', email: 'sean@seanmcgary.com' },
+85 silly publish   license: 'MIT',
+85 silly publish   bugs: { url: 'https://github.com/seanmcgary/session-store/issues' },
+85 silly publish   devDependencies: { express: '~4.9.0', 'cookie-parser': '~1.3.3' },
+85 silly publish   dependencies:
+85 silly publish    { q: '~1.0.1',
+85 silly publish      lodash: '~2.4.1',
+85 silly publish      uuid: '~1.4.1',
+85 silly publish      redis: '~0.12.1',
+85 silly publish      MD5: '~1.2.1' },
+85 silly publish   readme: '## session-store\n\nsession-store is a generic session interface for you to build a persistent (or not) store on top of. Bundled in this library you will find: \n\n- **SessionManager**: used to create Sessions\n- **Session**: represents a sessions state\n- **Store**: simple interface to build on\n- **RedisStore**: implements the Store interface using Redis\n- **Express middleware**\n\n\n### Using with Express\n\nTo use session-store with Express, you\'ll need the [cookie-parser](https://github.com/expressjs/cookie-parser) middleware.\n\n```javascript\nvar express = require(\'express\');\nvar SS = require(\'session-store\');\nvar cookieParser = require(\'cookie-parser\');\n\nvar server = express();\n\nvar SessionManager = new SS.Manager(new SS.RedisStore());\n\nserver.use(cookieParser());\n\nserver.use(new SS.Middleware({\n\tsessionManager: SessionManager,\n\tcookieKey: \'my-cookie-key\',\n\tsalt: \'my-salt\'\n}));\n\nserver.get(\'/\', function(req, res){\n\treq.session.set({ someAttribute: \'foobar\' });\n\tres.send(200);\n});\n\n/*\n\tIf run after hitting GET /, this will dump:\n\t\n\t{\n\t\tsomeAttribute: \'foobar\'\n\t}\n*/\nserver.get(\'/session\', function(req, res){\n\tres.json(req.session);\n});\n```\n\n\n### Manager\n\n```javascript\nvar SS = require(\'session-store\');\n\nvar manager = new SS.Manager();\n\nvar session = manager.createSession();\n\n```\n\n#### new SS.Manager(SS.Store store)\n- ```SS.Store``` an optional object that implements the SS.Store interface\n\n\n### RedisStore\n\n```javascript\nvar SS = require(\'session-store\');\n\nvar redisStore = new SS.RedisStore({\n\thost: \'localhost\',\n\tport: 6379\n});\n```\n\n#### new SS.RedisStore(object options)\n\n- ```options``` is an object that can provide:\n\t- ```host``` where your redis server is located\n\t- ```port``` if you are running on the non-default port\n\t\n### Session\n\n```javascript\nvar SS = require(\'session-store\');\n\nvar manager = new SS.Manager();\n\nvar session = manager.createSession();\n\nsession.set({ someKey: \'someValue\' });\nsession.set(\'someKey\', \'someValue\');\nsession.set(\'someKey\', \'someValue\', true);\n\nsession.flush();\n\n\nsession.get();\n/*\n\t{\n\t\tsomeKey: \'someValue\'\n\t}\n*/\n\nsession.destroy();\n\n\nsession.toJSON();\n/*\n\t{\n\t\tsomeKey: \'someValue\'\n\t}\n*/\n```\n\n#### new SS.Session(SS.Store store, string id)\n\n- ```store``` is an instance object that implements SS.Store\n- ```id``` is a unique string to identify the session\n\n#### Session.prototype.set(object data [, boolean forceFlush])\n\n- ```data``` is a object to store\n- ```forceFlush``` is a boolean to force a flush from memory to storage\n\n\n#### Session.prototype.set(string key, string value [, boolean forceFlush])\n\nUsed to set a single key/value property\n\n- ```key``` the key to set\n- ```value```  the value to set the key to\n- ```forceFlush``` is a boolean to force a flush from memory to storage\n\n#### Session.prototype.flush()\n\nFlush the in-memory session to your session storage\n\n#### Session.prototype.toJSON()\n\nReturns a JSON representation of the data in the session store\n\n#### Session.prototype.destroy()\n\nDestroy the session and remove it from the store\n\n ',
+85 silly publish   readmeFilename: 'README.mkdn',
+85 silly publish   _id: 'session-store@0.0.1',
+85 silly publish   dist: { shasum: 'fc8a6aab213257026672b23c54b7a6969c9e20d1' },
+85 silly publish   _from: '.' }
+86 verbose url raw session-store
+87 verbose url resolving [ 'https://registry.npmjs.org/', './session-store' ]
+88 verbose url resolved https://registry.npmjs.org/session-store
+89 info trying registry request attempt 1 at 17:19:13
+90 http PUT https://registry.npmjs.org/session-store
+91 http 403 https://registry.npmjs.org/session-store
+92 info trying registry request attempt 1 at 17:19:14
+93 http PUT https://registry.npmjs.org/session-store
+94 http 201 https://registry.npmjs.org/session-store
+95 verbose url raw session-store
+96 verbose url resolving [ 'https://registry.npmjs.org/', './session-store' ]
+97 verbose url resolved https://registry.npmjs.org/session-store
+98 info trying registry request attempt 1 at 17:19:15
+99 http GET https://registry.npmjs.org/session-store
+100 http 200 https://registry.npmjs.org/session-store
+101 warn publish Forced publish over session-store@0.0.1
+102 verbose url raw session-store
+103 verbose url resolving [ 'https://registry.npmjs.org/', './session-store' ]
+104 verbose url resolved https://registry.npmjs.org/session-store
+105 info trying registry request attempt 1 at 17:19:15
+106 http GET https://registry.npmjs.org/session-store
+107 http 200 https://registry.npmjs.org/session-store
+108 silly registry.get cb [ 200,
+108 silly registry.get   { date: 'Mon, 15 Sep 2014 00:19:14 GMT',
+108 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+108 silly registry.get     etag: '"66XG1QOKKH7JMCMXNMS1TCCLU"',
+108 silly registry.get     'content-type': 'application/json',
+108 silly registry.get     'cache-control': 'max-age=60',
+108 silly registry.get     'content-length': '6656',
+108 silly registry.get     'accept-ranges': 'bytes',
+108 silly registry.get     via: '1.1 varnish',
+108 silly registry.get     'x-served-by': 'cache-lax1426-LAX',
+108 silly registry.get     'x-cache': 'MISS',
+108 silly registry.get     'x-cache-hits': '0',
+108 silly registry.get     'x-timer': 'S1410740354.447232,VS0,VE184',
+108 silly registry.get     vary: 'Accept',
+108 silly registry.get     'keep-alive': 'timeout=10, max=50',
+108 silly registry.get     connection: 'Keep-Alive' } ]
+109 verbose unpublish removing attachments { shasum: '020b663ee0f3bbf0c68e1f7f8868067dfab5e581',
+109 verbose unpublish   tarball: 'http://registry.npmjs.org/session-store/-/session-store-0.0.1.tgz' }
+110 verbose url raw session-store/-rev/13-c24ddf6977bb8812b4ea3ceb25ae288f
+111 verbose url resolving [ 'https://registry.npmjs.org/',
+111 verbose url resolving   './session-store/-rev/13-c24ddf6977bb8812b4ea3ceb25ae288f' ]
+112 verbose url resolved https://registry.npmjs.org/session-store/-rev/13-c24ddf6977bb8812b4ea3ceb25ae288f
+113 info trying registry request attempt 1 at 17:19:15
+114 http PUT https://registry.npmjs.org/session-store/-rev/13-c24ddf6977bb8812b4ea3ceb25ae288f
+115 http 201 https://registry.npmjs.org/session-store/-rev/13-c24ddf6977bb8812b4ea3ceb25ae288f
+116 verbose url raw session-store
+117 verbose url resolving [ 'https://registry.npmjs.org/', './session-store' ]
+118 verbose url resolved https://registry.npmjs.org/session-store
+119 info trying registry request attempt 1 at 17:19:15
+120 http GET https://registry.npmjs.org/session-store
+121 http 200 https://registry.npmjs.org/session-store
+122 silly registry.get cb [ 200,
+122 silly registry.get   { date: 'Mon, 15 Sep 2014 00:19:15 GMT',
+122 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+122 silly registry.get     etag: '"BBHPRP4FOL99A71NLXU5TP2WW"',
+122 silly registry.get     'content-type': 'application/json',
+122 silly registry.get     'cache-control': 'max-age=60',
+122 silly registry.get     'content-length': '5922',
+122 silly registry.get     'accept-ranges': 'bytes',
+122 silly registry.get     via: '1.1 varnish',
+122 silly registry.get     'x-served-by': 'cache-lax1430-LAX',
+122 silly registry.get     'x-cache': 'MISS',
+122 silly registry.get     'x-cache-hits': '0',
+122 silly registry.get     'x-timer': 'S1410740354.963215,VS0,VE327',
+122 silly registry.get     vary: 'Accept',
+122 silly registry.get     'keep-alive': 'timeout=10, max=50',
+122 silly registry.get     connection: 'Keep-Alive' } ]
+123 info detach /session-store/-/session-store-0.0.1.tgz/-rev/14-a2f25898b58be4edd2c5aaa6ca347533
+124 verbose url raw /session-store/-/session-store-0.0.1.tgz/-rev/14-a2f25898b58be4edd2c5aaa6ca347533
+125 verbose url resolving [ 'https://registry.npmjs.org/',
+125 verbose url resolving   './session-store/-/session-store-0.0.1.tgz/-rev/14-a2f25898b58be4edd2c5aaa6ca347533' ]
+126 verbose url resolved https://registry.npmjs.org/session-store/-/session-store-0.0.1.tgz/-rev/14-a2f25898b58be4edd2c5aaa6ca347533
+127 info trying registry request attempt 1 at 17:19:16
+128 http DELETE https://registry.npmjs.org/session-store/-/session-store-0.0.1.tgz/-rev/14-a2f25898b58be4edd2c5aaa6ca347533
+129 http 200 https://registry.npmjs.org/session-store/-/session-store-0.0.1.tgz/-rev/14-a2f25898b58be4edd2c5aaa6ca347533
+130 verbose publish [ '.' ]
+131 verbose cache add [ '.', null ]
+132 verbose cache add name=undefined spec="." args=[".",null]
+133 verbose parsed url { protocol: null,
+133 verbose parsed url   slashes: null,
+133 verbose parsed url   auth: null,
+133 verbose parsed url   host: null,
+133 verbose parsed url   port: null,
+133 verbose parsed url   hostname: null,
+133 verbose parsed url   hash: null,
+133 verbose parsed url   search: null,
+133 verbose parsed url   query: null,
+133 verbose parsed url   pathname: '.',
+133 verbose parsed url   path: '.',
+133 verbose parsed url   href: '.' }
+134 silly lockFile 3a52ce78- .
+135 verbose lock . /Users/seanmcgary/.npm/3a52ce78-.lock
+136 verbose tar pack [ '/var/folders/y3/n_sj0zcs4dq9s6j2_42rlgb40000gn/T/npm-29385-Vd0K3Y5r/1410740356540-0.08889347454532981/tmp.tgz',
+136 verbose tar pack   '.' ]
+137 verbose tarball /var/folders/y3/n_sj0zcs4dq9s6j2_42rlgb40000gn/T/npm-29385-Vd0K3Y5r/1410740356540-0.08889347454532981/tmp.tgz
+138 verbose folder .
+139 silly lockFile 1f1177db-tar tar://.
+140 verbose lock tar://. /Users/seanmcgary/.npm/1f1177db-tar.lock
+141 silly lockFile 8429cb5a-6540-0-08889347454532981-tmp-tgz tar:///var/folders/y3/n_sj0zcs4dq9s6j2_42rlgb40000gn/T/npm-29385-Vd0K3Y5r/1410740356540-0.08889347454532981/tmp.tgz
+142 verbose lock tar:///var/folders/y3/n_sj0zcs4dq9s6j2_42rlgb40000gn/T/npm-29385-Vd0K3Y5r/1410740356540-0.08889347454532981/tmp.tgz /Users/seanmcgary/.npm/8429cb5a-6540-0-08889347454532981-tmp-tgz.lock
+143 silly lockFile 1f1177db-tar tar://.
+144 silly lockFile 1f1177db-tar tar://.
+145 silly lockFile 8429cb5a-6540-0-08889347454532981-tmp-tgz tar:///var/folders/y3/n_sj0zcs4dq9s6j2_42rlgb40000gn/T/npm-29385-Vd0K3Y5r/1410740356540-0.08889347454532981/tmp.tgz
+146 silly lockFile 8429cb5a-6540-0-08889347454532981-tmp-tgz tar:///var/folders/y3/n_sj0zcs4dq9s6j2_42rlgb40000gn/T/npm-29385-Vd0K3Y5r/1410740356540-0.08889347454532981/tmp.tgz
+147 verbose tar unpack /var/folders/y3/n_sj0zcs4dq9s6j2_42rlgb40000gn/T/npm-29385-Vd0K3Y5r/1410740356540-0.08889347454532981/tmp.tgz
+148 silly lockFile 52221536-6540-0-08889347454532981-package tar:///var/folders/y3/n_sj0zcs4dq9s6j2_42rlgb40000gn/T/npm-29385-Vd0K3Y5r/1410740356540-0.08889347454532981/package
+149 verbose lock tar:///var/folders/y3/n_sj0zcs4dq9s6j2_42rlgb40000gn/T/npm-29385-Vd0K3Y5r/1410740356540-0.08889347454532981/package /Users/seanmcgary/.npm/52221536-6540-0-08889347454532981-package.lock
+150 silly lockFile 8429cb5a-6540-0-08889347454532981-tmp-tgz tar:///var/folders/y3/n_sj0zcs4dq9s6j2_42rlgb40000gn/T/npm-29385-Vd0K3Y5r/1410740356540-0.08889347454532981/tmp.tgz
+151 verbose lock tar:///var/folders/y3/n_sj0zcs4dq9s6j2_42rlgb40000gn/T/npm-29385-Vd0K3Y5r/1410740356540-0.08889347454532981/tmp.tgz /Users/seanmcgary/.npm/8429cb5a-6540-0-08889347454532981-tmp-tgz.lock
+152 silly gunzTarPerm modes [ '755', '644' ]
+153 silly gunzTarPerm extractEntry package.json
+154 silly gunzTarPerm extractEntry .npmignore
+155 silly gunzTarPerm extractEntry index.js
+156 silly gunzTarPerm extractEntry README.mkdn
+157 silly gunzTarPerm extractEntry examples/expressjs.js
+158 silly gunzTarPerm extractEntry examples/standalone.js
+159 silly gunzTarPerm extractEntry lib/express.js
+160 silly gunzTarPerm extractEntry lib/manager.js
+161 silly gunzTarPerm extractEntry lib/redisStore.js
+162 silly gunzTarPerm extractEntry lib/session.js
+163 silly gunzTarPerm extractEntry lib/store.js
+164 silly gunzTarPerm extractEntry lib/modules/redis.js
+165 silly lockFile 52221536-6540-0-08889347454532981-package tar:///var/folders/y3/n_sj0zcs4dq9s6j2_42rlgb40000gn/T/npm-29385-Vd0K3Y5r/1410740356540-0.08889347454532981/package
+166 silly lockFile 52221536-6540-0-08889347454532981-package tar:///var/folders/y3/n_sj0zcs4dq9s6j2_42rlgb40000gn/T/npm-29385-Vd0K3Y5r/1410740356540-0.08889347454532981/package
+167 silly lockFile 8429cb5a-6540-0-08889347454532981-tmp-tgz tar:///var/folders/y3/n_sj0zcs4dq9s6j2_42rlgb40000gn/T/npm-29385-Vd0K3Y5r/1410740356540-0.08889347454532981/tmp.tgz
+168 silly lockFile 8429cb5a-6540-0-08889347454532981-tmp-tgz tar:///var/folders/y3/n_sj0zcs4dq9s6j2_42rlgb40000gn/T/npm-29385-Vd0K3Y5r/1410740356540-0.08889347454532981/tmp.tgz
+169 verbose tar pack [ '/Users/seanmcgary/.npm/session-store/0.0.1/package.tgz',
+169 verbose tar pack   '/var/folders/y3/n_sj0zcs4dq9s6j2_42rlgb40000gn/T/npm-29385-Vd0K3Y5r/1410740356540-0.08889347454532981/package' ]
+170 verbose tarball /Users/seanmcgary/.npm/session-store/0.0.1/package.tgz
+171 verbose folder /var/folders/y3/n_sj0zcs4dq9s6j2_42rlgb40000gn/T/npm-29385-Vd0K3Y5r/1410740356540-0.08889347454532981/package
+172 silly lockFile 52221536-6540-0-08889347454532981-package tar:///var/folders/y3/n_sj0zcs4dq9s6j2_42rlgb40000gn/T/npm-29385-Vd0K3Y5r/1410740356540-0.08889347454532981/package
+173 verbose lock tar:///var/folders/y3/n_sj0zcs4dq9s6j2_42rlgb40000gn/T/npm-29385-Vd0K3Y5r/1410740356540-0.08889347454532981/package /Users/seanmcgary/.npm/52221536-6540-0-08889347454532981-package.lock
+174 silly lockFile 7239ef7c--session-store-0-0-1-package-tgz tar:///Users/seanmcgary/.npm/session-store/0.0.1/package.tgz
+175 verbose lock tar:///Users/seanmcgary/.npm/session-store/0.0.1/package.tgz /Users/seanmcgary/.npm/7239ef7c--session-store-0-0-1-package-tgz.lock
+176 silly lockFile 52221536-6540-0-08889347454532981-package tar:///var/folders/y3/n_sj0zcs4dq9s6j2_42rlgb40000gn/T/npm-29385-Vd0K3Y5r/1410740356540-0.08889347454532981/package
+177 silly lockFile 52221536-6540-0-08889347454532981-package tar:///var/folders/y3/n_sj0zcs4dq9s6j2_42rlgb40000gn/T/npm-29385-Vd0K3Y5r/1410740356540-0.08889347454532981/package
+178 silly lockFile 7239ef7c--session-store-0-0-1-package-tgz tar:///Users/seanmcgary/.npm/session-store/0.0.1/package.tgz
+179 silly lockFile 7239ef7c--session-store-0-0-1-package-tgz tar:///Users/seanmcgary/.npm/session-store/0.0.1/package.tgz
+180 silly lockFile 77ccfd12--npm-session-store-0-0-1-package /Users/seanmcgary/.npm/session-store/0.0.1/package
+181 verbose lock /Users/seanmcgary/.npm/session-store/0.0.1/package /Users/seanmcgary/.npm/77ccfd12--npm-session-store-0-0-1-package.lock
+182 silly lockFile 77ccfd12--npm-session-store-0-0-1-package /Users/seanmcgary/.npm/session-store/0.0.1/package
+183 silly lockFile 77ccfd12--npm-session-store-0-0-1-package /Users/seanmcgary/.npm/session-store/0.0.1/package
+184 verbose tar unpack /Users/seanmcgary/.npm/session-store/0.0.1/package.tgz
+185 silly lockFile cecdf2b8--npm-session-store-0-0-1-package tar:///Users/seanmcgary/.npm/session-store/0.0.1/package
+186 verbose lock tar:///Users/seanmcgary/.npm/session-store/0.0.1/package /Users/seanmcgary/.npm/cecdf2b8--npm-session-store-0-0-1-package.lock
+187 silly lockFile 7239ef7c--session-store-0-0-1-package-tgz tar:///Users/seanmcgary/.npm/session-store/0.0.1/package.tgz
+188 verbose lock tar:///Users/seanmcgary/.npm/session-store/0.0.1/package.tgz /Users/seanmcgary/.npm/7239ef7c--session-store-0-0-1-package-tgz.lock
+189 silly gunzTarPerm modes [ '755', '644' ]
+190 silly gunzTarPerm extractEntry package.json
+191 silly gunzTarPerm extractEntry .npmignore
+192 silly gunzTarPerm extractEntry index.js
+193 silly gunzTarPerm extractEntry README.mkdn
+194 silly gunzTarPerm extractEntry examples/expressjs.js
+195 silly gunzTarPerm extractEntry examples/standalone.js
+196 silly gunzTarPerm extractEntry lib/express.js
+197 silly gunzTarPerm extractEntry lib/manager.js
+198 silly gunzTarPerm extractEntry lib/redisStore.js
+199 silly gunzTarPerm extractEntry lib/session.js
+200 silly gunzTarPerm extractEntry lib/store.js
+201 silly gunzTarPerm extractEntry lib/modules/redis.js
+202 silly lockFile cecdf2b8--npm-session-store-0-0-1-package tar:///Users/seanmcgary/.npm/session-store/0.0.1/package
+203 silly lockFile cecdf2b8--npm-session-store-0-0-1-package tar:///Users/seanmcgary/.npm/session-store/0.0.1/package
+204 silly lockFile 7239ef7c--session-store-0-0-1-package-tgz tar:///Users/seanmcgary/.npm/session-store/0.0.1/package.tgz
+205 silly lockFile 7239ef7c--session-store-0-0-1-package-tgz tar:///Users/seanmcgary/.npm/session-store/0.0.1/package.tgz
+206 verbose chmod /Users/seanmcgary/.npm/session-store/0.0.1/package.tgz 644
+207 verbose chown /Users/seanmcgary/.npm/session-store/0.0.1/package.tgz [ 501, 20 ]
+208 silly lockFile 3a52ce78- .
+209 silly lockFile 3a52ce78- .
+210 silly publish { name: 'session-store',
+210 silly publish   version: '0.0.1',
+210 silly publish   description: 'A generic session store adapter',
+210 silly publish   main: 'index.js',
+210 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+210 silly publish   repository:
+210 silly publish    { type: 'git',
+210 silly publish      url: 'https://github.com/seanmcgary/session-store.git' },
+210 silly publish   author: { name: 'Sean McGary', email: 'sean@seanmcgary.com' },
+210 silly publish   license: 'MIT',
+210 silly publish   bugs: { url: 'https://github.com/seanmcgary/session-store/issues' },
+210 silly publish   devDependencies: { express: '~4.9.0', 'cookie-parser': '~1.3.3' },
+210 silly publish   dependencies:
+210 silly publish    { q: '~1.0.1',
+210 silly publish      lodash: '~2.4.1',
+210 silly publish      uuid: '~1.4.1',
+210 silly publish      redis: '~0.12.1',
+210 silly publish      MD5: '~1.2.1' },
+210 silly publish   readme: '## session-store\n\nsession-store is a generic session interface for you to build a persistent (or not) store on top of. Bundled in this library you will find: \n\n- **SessionManager**: used to create Sessions\n- **Session**: represents a sessions state\n- **Store**: simple interface to build on\n- **RedisStore**: implements the Store interface using Redis\n- **Express middleware**\n\n\n### Using with Express\n\nTo use session-store with Express, you\'ll need the [cookie-parser](https://github.com/expressjs/cookie-parser) middleware.\n\n```javascript\nvar express = require(\'express\');\nvar SS = require(\'session-store\');\nvar cookieParser = require(\'cookie-parser\');\n\nvar server = express();\n\nvar SessionManager = new SS.Manager(new SS.RedisStore());\n\nserver.use(cookieParser());\n\nserver.use(new SS.Middleware({\n\tsessionManager: SessionManager,\n\tcookieKey: \'my-cookie-key\',\n\tsalt: \'my-salt\'\n}));\n\nserver.get(\'/\', function(req, res){\n\treq.session.set({ someAttribute: \'foobar\' });\n\tres.send(200);\n});\n\n/*\n\tIf run after hitting GET /, this will dump:\n\t\n\t{\n\t\tsomeAttribute: \'foobar\'\n\t}\n*/\nserver.get(\'/session\', function(req, res){\n\tres.json(req.session);\n});\n```\n\n\n### Manager\n\n```javascript\nvar SS = require(\'session-store\');\n\nvar manager = new SS.Manager();\n\nvar session = manager.createSession();\n\n```\n\n#### new SS.Manager(SS.Store store)\n- ```SS.Store``` an optional object that implements the SS.Store interface\n\n\n### RedisStore\n\n```javascript\nvar SS = require(\'session-store\');\n\nvar redisStore = new SS.RedisStore({\n\thost: \'localhost\',\n\tport: 6379\n});\n```\n\n#### new SS.RedisStore(object options)\n\n- ```options``` is an object that can provide:\n\t- ```host``` where your redis server is located\n\t- ```port``` if you are running on the non-default port\n\t\n### Session\n\n```javascript\nvar SS = require(\'session-store\');\n\nvar manager = new SS.Manager();\n\nvar session = manager.createSession();\n\nsession.set({ someKey: \'someValue\' });\nsession.set(\'someKey\', \'someValue\');\nsession.set(\'someKey\', \'someValue\', true);\n\nsession.flush();\n\n\nsession.get();\n/*\n\t{\n\t\tsomeKey: \'someValue\'\n\t}\n*/\n\nsession.destroy();\n\n\nsession.toJSON();\n/*\n\t{\n\t\tsomeKey: \'someValue\'\n\t}\n*/\n```\n\n#### new SS.Session(SS.Store store, string id)\n\n- ```store``` is an instance object that implements SS.Store\n- ```id``` is a unique string to identify the session\n\n#### Session.prototype.set(object data [, boolean forceFlush])\n\n- ```data``` is a object to store\n- ```forceFlush``` is a boolean to force a flush from memory to storage\n\n\n#### Session.prototype.set(string key, string value [, boolean forceFlush])\n\nUsed to set a single key/value property\n\n- ```key``` the key to set\n- ```value```  the value to set the key to\n- ```forceFlush``` is a boolean to force a flush from memory to storage\n\n#### Session.prototype.flush()\n\nFlush the in-memory session to your session storage\n\n#### Session.prototype.toJSON()\n\nReturns a JSON representation of the data in the session store\n\n#### Session.prototype.destroy()\n\nDestroy the session and remove it from the store\n\n ',
+210 silly publish   readmeFilename: 'README.mkdn',
+210 silly publish   _id: 'session-store@0.0.1',
+210 silly publish   dist:
+210 silly publish    { shasum: 'fc8a6aab213257026672b23c54b7a6969c9e20d1',
+210 silly publish      tarball: 'http://registry.npmjs.org/session-store/-/session-store-0.0.1.tgz' },
+210 silly publish   _from: '.',
+210 silly publish   _npmVersion: '1.3.11',
+210 silly publish   _npmUser: { name: 'seanmcgary', email: 'sean@seanmcgary.com' } }
+211 verbose url raw session-store
+212 verbose url resolving [ 'https://registry.npmjs.org/', './session-store' ]
+213 verbose url resolved https://registry.npmjs.org/session-store
+214 info trying registry request attempt 1 at 17:19:16
+215 http PUT https://registry.npmjs.org/session-store
+216 http 201 https://registry.npmjs.org/session-store
+217 verbose url raw session-store
+218 verbose url resolving [ 'https://registry.npmjs.org/', './session-store' ]
+219 verbose url resolved https://registry.npmjs.org/session-store
+220 info trying registry request attempt 1 at 17:19:16
+221 http GET https://registry.npmjs.org/session-store
+222 http 200 https://registry.npmjs.org/session-store
+223 verbose uploading [ 'session-store/-/session-store-0.0.1.tgz/-rev/16-b84fb3f0b1500f039b96ce706fdd716c',
+223 verbose uploading   '/Users/seanmcgary/.npm/session-store/0.0.1/package.tgz' ]
+224 verbose url raw session-store/-/session-store-0.0.1.tgz/-rev/16-b84fb3f0b1500f039b96ce706fdd716c
+225 verbose url resolving [ 'https://registry.npmjs.org/',
+225 verbose url resolving   './session-store/-/session-store-0.0.1.tgz/-rev/16-b84fb3f0b1500f039b96ce706fdd716c' ]
+226 verbose url resolved https://registry.npmjs.org/session-store/-/session-store-0.0.1.tgz/-rev/16-b84fb3f0b1500f039b96ce706fdd716c
+227 info trying registry request attempt 1 at 17:19:17
+228 http PUT https://registry.npmjs.org/session-store/-/session-store-0.0.1.tgz/-rev/16-b84fb3f0b1500f039b96ce706fdd716c
+229 http 201 https://registry.npmjs.org/session-store/-/session-store-0.0.1.tgz/-rev/16-b84fb3f0b1500f039b96ce706fdd716c
+230 verbose publish attached [ 'session-store',
+230 verbose publish   '/Users/seanmcgary/.npm/session-store/0.0.1/package.tgz',
+230 verbose publish   'session-store-0.0.1.tgz' ]
+231 verbose url raw session-store/0.0.1/-tag/latest
+232 verbose url resolving [ 'https://registry.npmjs.org/',
+232 verbose url resolving   './session-store/0.0.1/-tag/latest' ]
+233 verbose url resolved https://registry.npmjs.org/session-store/0.0.1/-tag/latest
+234 info trying registry request attempt 1 at 17:19:17
+235 http PUT https://registry.npmjs.org/session-store/0.0.1/-tag/latest
+236 http 403 https://registry.npmjs.org/session-store/0.0.1/-tag/latest
+237 info trying registry request attempt 1 at 17:19:17
+238 http PUT https://registry.npmjs.org/session-store/0.0.1/-tag/latest
+239 http 403 https://registry.npmjs.org/session-store/0.0.1/-tag/latest
+240 error publish Error uploading package
+241 error Error: forbidden Cannot replace previously published version: 0.0.1: session-store/0.0.1/-tag/latest
+241 error     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:272:14)
+241 error     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:129:22)
+241 error     at Request.EventEmitter.emit (events.js:98:17)
+241 error     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:873:14)
+241 error     at Request.EventEmitter.emit (events.js:117:20)
+241 error     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:824:12)
+241 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+241 error     at _stream_readable.js:920:16
+241 error     at process._tickCallback (node.js:415:13)
+242 error If you need help, you may report this log at:
+242 error     <http://github.com/isaacs/npm/issues>
+242 error or email it to:
+242 error     <npm-@googlegroups.com>
+243 error System Darwin 13.3.0
+244 error command "/usr/local/bin/node" "/usr/local/bin/npm" "publish" "--force"
+245 error cwd /Users/seanmcgary/Code/projects/sessionStore
+246 error node -v v0.10.21
+247 error npm -v 1.3.11
+248 verbose exit [ 1, true ]
