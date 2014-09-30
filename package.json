@@ -1,6 +1,6 @@
 {
   "name": "session-store",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A generic session store adapter",
   "main": "index.js",
   "scripts": {
